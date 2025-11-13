@@ -1,4 +1,4 @@
-# Stark Data
+# Data Go
 
 Explore and query your data warehouse. Get support from AI.
 Works with BigQuery and Snowflake.
