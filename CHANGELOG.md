@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.3.0] - 2025-11-16
+
+### Added
+
+- Implemented authentication gating across all webview components to require user sign-in before accessing features
+- Added AuthGate component that displays signed-out state when user is not authenticated
+- Added authentication state listener in SchemaExplorer to automatically refresh schemas upon user authentication
+- Added 'Open Start Page' command to Data Go extension for quick access to the start screen
+- Implemented AuthProvider and authentication state management for webview components
+- Added SignedOut component to display when users are not authenticated
+
+### Changed
+
+- Enhanced authentication service to parse JWT ID tokens locally without backend verification
+- Updated all webview views (AiChat, DataView, KnowledgeViewer, ParameterPanel, SchemaExplorer, TablePreview, TableSchema) to require authentication before rendering
+- Improved authentication state synchronization between extension and webview components
+- Refactored BaseViewHandler to support authentication state management and initialization
+
 ## [0.2.17] - 2025-11-16
 
 ### Changed
