@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.3.1] - 2025-11-16
+
+### Changed
+
+- Redesigned start screen with improved layout, logo positioning, and button styling
+- Enhanced SignedOut component with Data Go logo and improved visual design
+- Updated sign-in button styling with rounded-full design and arrow icon
+- Improved tooltip integration for logout and settings buttons in start screen
+- Refined authentication UI with better spacing and typography
+
+### Removed
+
+- Removed "Syncing tables sometimes takes a while, please be patient" message from Schema Explorer empty state as it was ugly
+
 ## [0.3.0] - 2025-11-16
 
 ### Added
