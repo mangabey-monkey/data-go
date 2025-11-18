@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.3.2] - 2025-11-16
+
+### Fixed
+
+- Setup page failing to load the settings.
+- Nested structs failed to show in query results.
+
 ## [0.3.1] - 2025-11-16
 
 ### Changed
