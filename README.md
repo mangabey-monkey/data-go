@@ -1,20 +1,28 @@
-# Distinct
+# DISTINCT: BigQuery and Snowflake
 
-Explore and query your data warehouse with AI-powered assistance.
-Works with BigQuery and Snowflake.
+> AI query coding agent with deep knowledge about your specific data warehouse which speeds up every data extraction and analysis.
 
-Distinct transforms your VSCode into a powerful data workspace. Write SQL with intelligent completions, visualize results instantly, and let AI help you craft complex queries. Apart from optional AI requests to Gemini, everything runs locally with your data staying on your machine. Whether you're exploring new datasets, building analysis pipelines, or collaborating with your team, Distinct streamlines your entire workflow from query to insight.
+### Data Privacy
 
-**Key Features:**
+Your data is only processed on your local machine and in your data warehouse—and by your AI model provider if you use AI features.
 
-- Explore database objects with intelligent syncing
-- Ad-hoc query windows for rapid development
-- Powerful query runner with parameterized query support
-- Clean, interactive data views
-- Quick and beautiful chart generation
-- AI Query Chatbot trained on your schema
+### AI Query Agent
 
-![](media/readme/chart.gif)
+- Coding Chatbot with deep knowledge about your specific data warehouse.
+- **Bring Your Own Key**. Your data is only shared between you and your AI model provider.
+- Choose what tables the AI should have access to.
+- The tables are analyzed by AI to understand all the specific details about the format and structure of the actual data, beyond the table schemas.
+- Coding AI chat that helps you write accurate queries, based on the learned knowledge.
+- Knowledge learned from your chats and queries are remembered for later chats.
+
+### Query and Exploration Tools
+
+- View and explore your tables and schemas.
+- Quick query window
+- Powerful query runner with parameterized query support.
+- Clean view of query results.
+- Quick and beautiful charts.
+  ![](media/readme/chart.gif)
 
 ## Explore Your Database Objects
 
@@ -97,7 +105,7 @@ _Note: You can disable AI features if you prefer not to use them._
 
 ## Interaction with Other SQL Extensions
 
-If you experience issues with code completions or query execution, another SQL-related extension may be conflicting with Distinct. Try disabling other SQL extensions to resolve the issue.
+If you experience issues with code completions or query execution, another SQL-related extension may be conflicting with _DISTINCT_. Try disabling other SQL extensions to resolve the issue.
 
 ## Coming Soon: Share AI Knowledge Across Your Team
 
@@ -105,7 +113,7 @@ When your AI agent learns about your data, you'll be able to share that knowledg
 
 ## Data Processing
 
-Distinct is designed with privacy in mind. All your data, query results, and AI learnt knowledge are stored locally in a SQLite database on your computer. When using AI features, requests are sent directly to Google Gemini without any intermediate processing by Distinct. Only anonymous usage analytics are sent to Microsoft Azure to help improve the extension - no queries, results, or personal information ever leaves your machine except when you explicitly connect to your data warehouse. Read more under Telemetry.
+_DISTINCT_ is designed with privacy in mind. All your data, query results, and AI learned knowledge are stored locally in a SQLite database on your computer. When using AI features, requests are sent directly to Google Gemini without any intermediate processing by _DISTINCT_. Only anonymous usage analytics are sent to Microsoft Azure to help improve the extension - no queries, results, or personal information ever leaves your machine except when you explicitly connect to your data warehouse. Read more under Telemetry.
 
 ![](media/readme/data_processing.png)
 

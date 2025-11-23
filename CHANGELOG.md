@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.4.1] - 2025-11-23
+
+### Changed
+
+Documentation changes in linew with the renaming of the extension to distinct.
+
 ## [0.4.0] - 2025-11-21
 
 ### Changed
