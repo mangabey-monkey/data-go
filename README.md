@@ -1,9 +1,9 @@
-# Data Go
+# Distinct
 
 Explore and query your data warehouse with AI-powered assistance.
 Works with BigQuery and Snowflake.
 
-Data Go transforms your VSCode into a powerful data workspace. Write SQL with intelligent completions, visualize results instantly, and let AI help you craft complex queries. Apart from optional AI requests to Gemini, everything runs locally with your data staying on your machine. Whether you're exploring new datasets, building analysis pipelines, or collaborating with your team, Data Go streamlines your entire workflow from query to insight.
+Distinct transforms your VSCode into a powerful data workspace. Write SQL with intelligent completions, visualize results instantly, and let AI help you craft complex queries. Apart from optional AI requests to Gemini, everything runs locally with your data staying on your machine. Whether you're exploring new datasets, building analysis pipelines, or collaborating with your team, Distinct streamlines your entire workflow from query to insight.
 
 **Key Features:**
 
@@ -97,7 +97,7 @@ _Note: You can disable AI features if you prefer not to use them._
 
 ## Interaction with Other SQL Extensions
 
-If you experience issues with code completions or query execution, another SQL-related extension may be conflicting with Data Go. Try disabling other SQL extensions to resolve the issue.
+If you experience issues with code completions or query execution, another SQL-related extension may be conflicting with Distinct. Try disabling other SQL extensions to resolve the issue.
 
 ## Coming Soon: Share AI Knowledge Across Your Team
 
@@ -105,7 +105,7 @@ When your AI agent learns about your data, you'll be able to share that knowledg
 
 ## Data Processing
 
-Data Go is designed with privacy in mind. All your data, query results, and AI learnt knowledge are stored locally in a SQLite database on your computer. When using AI features, requests are sent directly to Google Gemini without any intermediate processing by Data Go. Only anonymous usage analytics are sent to Microsoft Azure to help improve the extension - no queries, results, or personal information ever leaves your machine except when you explicitly connect to your data warehouse. Read more under Telemetry.
+Distinct is designed with privacy in mind. All your data, query results, and AI learnt knowledge are stored locally in a SQLite database on your computer. When using AI features, requests are sent directly to Google Gemini without any intermediate processing by Distinct. Only anonymous usage analytics are sent to Microsoft Azure to help improve the extension - no queries, results, or personal information ever leaves your machine except when you explicitly connect to your data warehouse. Read more under Telemetry.
 
 ![](media/readme/data_processing.png)
 

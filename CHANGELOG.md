@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.4.0] - 2025-11-21
+
+### Changed
+
+Renaming of all data-go references to distinct
+
+## [0.3.4] - 2025-11-21
+
+### Fixed
+
+Correct initial state for google sheets upload folder in data view.
+
 ## [0.3.3] - 2025-11-19
 
 ### Added

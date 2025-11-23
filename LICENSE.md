@@ -8,7 +8,7 @@ or public performance of this Software, via any medium, is strictly prohibited.
 
 The Software is provided for authorized use only. No license or right is granted
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software without express written permission from Dedalusian Agency.
+of the Software without express written permission from Mangabey.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
