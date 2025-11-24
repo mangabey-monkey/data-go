@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.4.2] - 2025-11-24
+
+### Changed
+
+Improved blockage for sign in
+
 ## [0.4.1] - 2025-11-23
 
 ### Changed
