@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This changelog is automatically generated during releases based on git history and changes.
 
+## [0.4.3] - 2025-11-25
+
+### Fixed
+
+The google sheets export now does not require a folder ID for upload. However the user is alerted when it is missing. A section for this is now added to the settings.
+
 ## [0.4.2] - 2025-11-24
 
 ### Changed
